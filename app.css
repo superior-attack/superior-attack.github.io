@@ -1,4 +1,8 @@
+/* Extra small devices (portrait phones, less than 576px)
+   No media query for `xs` since this is the default in Bootstrap */
+
 html {
+
     min-height: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -10,115 +14,190 @@ html {
     background: url(/images/mesh.png), -ms-linear-gradient( to top, black, yellow 30%, black 60%) fixed;
     background: url(/images/mesh.png), -o-linear-gradient( to top, black, yellow 30%, black 60%) fixed;
     background: url(/images/mesh.png), linear-gradient(to top, black, yellow 30%, black 60%) fixed;
-""
+
     background: black, url(/images/mesh.png);
 
 }
 
-body {
-    background-color: black;
-}
+.container-fluit {
 
-#logo {
-    background: url(/images/sa.svg);
-    height: 300px;
-    width: 300px;
-    z-index: 1;
-    position: absolute;
-    top: 20px;
-    left: 50px;
-}
+    min-height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
-.sprite-1 {
-    position: absolute;
-    z-index: 2;
-    opacity: 0.5;
-    top: 750px;
-    left: 0px;
-    background: url(/images/spray_01.svg) no-repeat;
-    width: 350px;
-    height: 350px;
-}
+    background: url(/images/mesh.png), -webkit-linear-gradient( to top, black, yellow 30%, black 60%) fixed;
+    background: url(/images/mesh.png), -moz-linear-gradient( to top, black, yellow 30%, black 60%) fixed;
+    background: url(/images/mesh.png), -ms-linear-gradient( to top, black, yellow 30%, black 60%) fixed;
+    background: url(/images/mesh.png), -o-linear-gradient( to top, black, yellow 30%, black 60%) fixed;
+    background: url(/images/mesh.png), linear-gradient(to top, black, yellow 30%, black 60%) fixed;
 
-.sprite-2 {
-    position: absolute;
-    z-index: 2;
-    opacity: 0.5;
-    top: 1400px;
-    left: 0px;
-    background: url(/images/spray_04.svg) no-repeat;
-    width: 400px;
-    height: 350px;
-}
-
-.sprite-3 {
-    position: absolute;
-    z-index: 2;
-    opacity: 0.5;
-    top: 2000px;
-    left: 0px;
-    background: url(/images/spray_03.svg) no-repeat;
-    width: 400px;
-    height: 350px;
-}
-
-.sprite-4 {
-    position: absolute;
-    z-index: 2;
-    opacity: 0.5;
-    top: 2600px;
-    left: 0px;
-    background: url(/images/spray_05.svg) no-repeat;
-    width: 350px;
-    height: 400px;
-}
-
-.sprite-5 {
-    position: absolute;
-    z-index: 2;
-    opacity: 0.5;
-    top: 3200px;
-    left: 0px;
-    background: url(/images/spray_02.svg) no-repeat;
-    width: 400px;
-    height: 350px;
-}
-
-.player-pic {
-    margin: 0 auto;
-    border: 1px solid white;
-    border-radius: 250px;
-    position: absolute;
-    top: 45px;
-    left: 45px;
+    background: black, url(/images/mesh.png);
 }
 
 h1 {
     font-family: 'Teko', sans-serif;
-    z-index: 3;
     color: white;
-    font-size: 100px;
+    font-size: 55px;
     text-shadow: 2px 2px 5px black;
-    position: absolute;
-    top: 550px;
-    left: 0px;
-    width: 585px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+footer {
+    background-color: black;
+    color: white;
     text-align: center;
 }
 
+.logo {
+    width: 255px;
+    height: 255px;
+    margin: 50px 0 50px 75px;
+}
 
-/* Extra small devices (portrait phones, less than 576px)
-// No media query for `xs` since this is the default in Bootstrap
+.bi-person-circle {
+    width: 240px;
+    height: 200px;
+    margin-left: 85px;
+    opacity: 1;
+    z-index: 2;
+}
 
-// Small devices (landscape phones, 576px and up) */
+.spray-01 {
+    width: 390px;
+    height: 300px;
+    background-size: contain;
+    opacity: 0.5;
+}
+
+.picture-01 {
+    width: 255px;
+    height: 300px;
+    background-size: contain;
+    opacity: 1;
+    position: absolute;
+    z-index: 1;
+    left: 15px;
+}
+
+.spray-02 {
+    width: 390px;
+    height: 300px;
+    background-size: contain;
+    opacity: 0.5;
+}
+
+.picture-02 {
+    width: 255px;
+    height: 300px;
+    background-size: contain;
+    opacity: 1;
+    position: absolute;
+    z-index: 1;
+    left: 15px;
+}
+
+.spray-03 {
+    width: 390px;
+    height: 300px;
+    background-size: contain;
+    opacity: 0.5;
+}
+
+.picture-03 {
+    width: 255px;
+    height: 300px;
+    background-size: contain;
+    opacity: 1;
+    position: absolute;
+    z-index: 1;
+    left: 15px;
+}
+
+.spray-04 {
+    width: 390px;
+    height: 300px;
+    background-size: contain;
+    opacity: 0.5;
+}
+
+.picture-04 {
+    width: 255px;
+    height: 300px;
+    background-size: contain;
+    opacity: 1;
+    position: absolute;
+    z-index: 1;
+    left: 15px;
+}
+
+.spray-05 {
+    width: 390px;
+    height: 300px;
+    background-size: contain;
+    opacity: 0.5;
+}
+
+.picture-05 {
+    width: 255px;
+    height: 300px;
+    background-size: contain;
+    opacity: 1;
+    position: absolute;
+    z-index: 1;
+    left: 15px;
+}
+
+.player-name{
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    text-shadow: 2px 2px 5px black;
+    font-family: 'Teko', sans-serif;
+}
+
+
+
+/* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
+
+    h1 {
+        margin-top: 55px;
+        text-align: left;
+        font-size: 100px;
+    }
+
+    .picture-01 {
+        top: -15px;
+    }
+
+    .picture-02 {
+        top: -15px;
+    }
+
+    .picture-03 {
+        top: -15px;
+    }
+    
+    .picture-04 {
+        top: -15px;
+    }
+    
+    .picture-05 {
+        top: -15px;
+    }
 
 
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-
+    h1 {
+        font-size: 82px;
+        margin-top: 100px;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -126,79 +205,8 @@ h1 {
 
 }
 
-/*Extra large devices (large desktops, 1200px and up) */
+/* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-
-    #logo {
-        z-index: 1;
-        position: absolute;
-        top: 20px;
-        left: 350px;
-    }
-    
-    .sprite-1 {
-        position: absolute;
-        z-index: 2;
-        opacity: 0.5;
-        top: 200px;
-        left: 20px;
-        background: url(/images/spray_01.svg) no-repeat;
-        width: 350px;
-        height: 350px;
-    }
-    
-    .sprite-2 {
-        position: absolute;
-        z-index: 2;
-        opacity: 0.5;
-        top: 100px;
-        left: 350px;
-        background: url(/images/spray_04.svg) no-repeat;
-        width: 400px;
-        height: 350px;
-    }
-    
-    .sprite-3 {
-        position: absolute;
-        z-index: 2;
-        opacity: 0.5;
-        top: 100px;
-        left: 700px;
-        background: url(/images/spray_03.svg) no-repeat;
-        width: 400px;
-        height: 350px;
-    }
-    
-    .sprite-4 {
-        position: absolute;
-        z-index: 2;
-        opacity: 0.5;
-        top: 200px;
-        left: 1050px;
-        background: url(/images/spray_05.svg) no-repeat;
-        width: 350px;
-        height: 400px;
-    }
-    
-    .sprite-5 {
-        position: absolute;
-        z-index: 2;
-        opacity: 0.5;
-        top: 320px;
-        left: 530px;
-        background: url(/images/spray_02.svg) no-repeat;
-        width: 400px;
-        height: 350px;
-    }
-    
-    .player-pic {
-        margin: 0 auto;
-        border: 1px solid white;
-        border-radius: 250px;
-        position: absolute;
-        top: 80px;
-        left: 100px;
-    }
     
     h1 {
         font-family: 'Teko', sans-serif;
@@ -208,6 +216,138 @@ h1 {
         text-shadow: 2px 2px 5px black;
         position: absolute;
         top: 650px;
-        left: 525px;
+        left: -210px;
+        margin: 0;
     }
+
+    footer {
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        width: 100%;
+        z-index: 5;
+        height: 30px;
+    }
+
+    .logo {
+        z-index: 0;
+        position: absolute;
+        top: 0px;
+        left: 275px;
+        width: 750px;
+        height: 750px;
+        margin: 0 50px 50px;
+    }
+    
+    .spray-01 {
+        position: absolute;
+        z-index: 1;
+        top: 300px;
+        left: 20px;
+        width: 350px;
+        height: 350px;
+    }
+
+    .picture-01 {
+        position: absolute;
+        z-index: 2;
+        top: 300px;
+        left: 20px;
+    }
+
+    #player-01 {
+        position: absolute;
+        top: 510px;
+        left: 160px;
+        z-index: 3;
+    }
+    
+    .spray-02 {
+        position: absolute;
+        z-index: 1;
+        top: 300px;
+        left: 350px;
+        width: 400px;
+        height: 350px;
+    }
+
+    .picture-02 {
+        position: absolute;
+        z-index: 2;
+        top: 300px;
+        left: 300px;
+    }
+
+    #player-02 {
+        position: absolute;
+        top: 230px;
+        left: 148px;
+        z-index: 3;
+    }
+    
+    .spray-03 {
+        position: absolute;
+        z-index: 1;
+        top: 25px;
+        left: 225px;
+        width: 400px;
+        height: 350px;
+    }
+
+    .picture-03 {
+        top: 25px;
+        left: 225px;
+        z-index: 2;
+    }
+
+    #player-03 {
+        position: absolute;
+        left: 375px;
+        top: 230px;
+        z-index: 3;
+    }
+    
+    .spray-04 {
+        position: absolute;
+        z-index: 1;
+        top: 25px;
+        left: 10px;
+        width: 350px;
+        height: 400px;
+    }
+
+    .picture-04 {
+        left: 0px;
+        top: 25px;
+        z-index: 2;
+    }
+
+    #player-04 {
+        position: absolute;
+        top: 500px;
+        left: 440px;
+        z-index: 3;
+    }
+    
+    .spray-05 {
+        position: absolute;
+        z-index: 1;
+        top: 350px;
+        left: 500px;
+        width: 400px;
+        height: 350px;
+    }
+
+    .picture-05 {
+        left: 480px;
+        top: 270px;
+        z-index: 2;
+    }
+
+    #player-05 {
+        position: absolute;
+        left: 629px;
+        top: 475px;
+        z-index: 3;
+    }  
 }
