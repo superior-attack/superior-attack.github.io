@@ -1,0 +1,213 @@
+html {
+    min-height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    background: url(/images/mesh.png), -webkit-linear-gradient( to top, black, yellow 30%, black 60%) fixed;
+    background: url(/images/mesh.png), -moz-linear-gradient( to top, black, yellow 30%, black 60%) fixed;
+    background: url(/images/mesh.png), -ms-linear-gradient( to top, black, yellow 30%, black 60%) fixed;
+    background: url(/images/mesh.png), -o-linear-gradient( to top, black, yellow 30%, black 60%) fixed;
+    background: url(/images/mesh.png), linear-gradient(to top, black, yellow 30%, black 60%) fixed;
+""
+    background: black, url(/images/mesh.png);
+
+}
+
+body {
+    background-color: black;
+}
+
+#logo {
+    background: url(/images/sa.svg);
+    height: 300px;
+    width: 300px;
+    z-index: 1;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+
+.sprite-1 {
+    position: absolute;
+    z-index: 2;
+    opacity: 0.5;
+    top: 750px;
+    left: 0px;
+    background: url(/images/spray_01.svg) no-repeat;
+    width: 350px;
+    height: 350px;
+}
+
+.sprite-2 {
+    position: absolute;
+    z-index: 2;
+    opacity: 0.5;
+    top: 1400px;
+    left: 0px;
+    background: url(/images/spray_04.svg) no-repeat;
+    width: 400px;
+    height: 350px;
+}
+
+.sprite-3 {
+    position: absolute;
+    z-index: 2;
+    opacity: 0.5;
+    top: 2000px;
+    left: 0px;
+    background: url(/images/spray_03.svg) no-repeat;
+    width: 400px;
+    height: 350px;
+}
+
+.sprite-4 {
+    position: absolute;
+    z-index: 2;
+    opacity: 0.5;
+    top: 2600px;
+    left: 0px;
+    background: url(/images/spray_05.svg) no-repeat;
+    width: 350px;
+    height: 400px;
+}
+
+.sprite-5 {
+    position: absolute;
+    z-index: 2;
+    opacity: 0.5;
+    top: 3200px;
+    left: 0px;
+    background: url(/images/spray_02.svg) no-repeat;
+    width: 400px;
+    height: 350px;
+}
+
+.player-pic {
+    margin: 0 auto;
+    border: 1px solid white;
+    border-radius: 250px;
+    position: absolute;
+    top: 45px;
+    left: 45px;
+}
+
+h1 {
+    font-family: 'Teko', sans-serif;
+    z-index: 3;
+    color: white;
+    font-size: 100px;
+    text-shadow: 2px 2px 5px black;
+    position: absolute;
+    top: 550px;
+    left: 0px;
+    width: 585px;
+    text-align: center;
+}
+
+
+/* Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/*Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+    #logo {
+        z-index: 1;
+        position: absolute;
+        top: 20px;
+        left: 350px;
+    }
+    
+    .sprite-1 {
+        position: absolute;
+        z-index: 2;
+        opacity: 0.5;
+        top: 200px;
+        left: 20px;
+        background: url(/images/spray_01.svg) no-repeat;
+        width: 350px;
+        height: 350px;
+    }
+    
+    .sprite-2 {
+        position: absolute;
+        z-index: 2;
+        opacity: 0.5;
+        top: 100px;
+        left: 350px;
+        background: url(/images/spray_04.svg) no-repeat;
+        width: 400px;
+        height: 350px;
+    }
+    
+    .sprite-3 {
+        position: absolute;
+        z-index: 2;
+        opacity: 0.5;
+        top: 100px;
+        left: 700px;
+        background: url(/images/spray_03.svg) no-repeat;
+        width: 400px;
+        height: 350px;
+    }
+    
+    .sprite-4 {
+        position: absolute;
+        z-index: 2;
+        opacity: 0.5;
+        top: 200px;
+        left: 1050px;
+        background: url(/images/spray_05.svg) no-repeat;
+        width: 350px;
+        height: 400px;
+    }
+    
+    .sprite-5 {
+        position: absolute;
+        z-index: 2;
+        opacity: 0.5;
+        top: 320px;
+        left: 530px;
+        background: url(/images/spray_02.svg) no-repeat;
+        width: 400px;
+        height: 350px;
+    }
+    
+    .player-pic {
+        margin: 0 auto;
+        border: 1px solid white;
+        border-radius: 250px;
+        position: absolute;
+        top: 80px;
+        left: 100px;
+    }
+    
+    h1 {
+        font-family: 'Teko', sans-serif;
+        z-index: 3;
+        color: white;
+        font-size: 82px;
+        text-shadow: 2px 2px 5px black;
+        position: absolute;
+        top: 650px;
+        left: 525px;
+    }
+}
