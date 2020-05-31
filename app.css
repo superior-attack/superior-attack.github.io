@@ -51,7 +51,7 @@ footer {
 .logo {
     width: 255px;
     height: 255px;
-    margin: 50px 0 50px 75px;
+    margin: 50px 0 50px 30px;
 }
 
 .bi-person-circle {
@@ -76,7 +76,8 @@ footer {
     opacity: 1;
     position: absolute;
     z-index: 1;
-    left: 15px;
+    left: -35px;
+    top: 0px;
 }
 
 .spray-02 {
@@ -93,7 +94,8 @@ footer {
     opacity: 1;
     position: absolute;
     z-index: 1;
-    left: 15px;
+    left: -35px;
+    top: 0;
 }
 
 .spray-03 {
@@ -110,7 +112,8 @@ footer {
     opacity: 1;
     position: absolute;
     z-index: 1;
-    left: 15px;
+    left: -35px;
+    top: 0;
 }
 
 .spray-04 {
@@ -127,7 +130,8 @@ footer {
     opacity: 1;
     position: absolute;
     z-index: 1;
-    left: 15px;
+    left: -35px;
+    top: 0;
 }
 
 .spray-05 {
@@ -144,7 +148,8 @@ footer {
     opacity: 1;
     position: absolute;
     z-index: 1;
-    left: 15px;
+    left: -35px;
+    top: 0;
 }
 
 .player-name{
@@ -157,9 +162,9 @@ footer {
 
 
 /* Extra small devices (portrait phones, less than 576px)
- No media query for `xs` since this is the default in Bootstrap
+   No media query for `xs` since this is the default in Bootstrap
 
- Small devices (landscape phones, 576px and up)*/
+   Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
 
     h1 {
@@ -189,9 +194,109 @@ footer {
     }
 
 
+    .spray-01 {
+        width: 290px;
+        height: 200px;
+        background-size: contain;
+        opacity: 0.5;
+    }
+    
+    .picture-01 {
+        width: 155px;
+        height: 200px;
+        background-size: contain;
+        opacity: 1;
+        position: absolute;
+        z-index: 1;
+        left: -35px;
+        top: 0px;
+    }
+    
+    .spray-02 {
+        width: 290px;
+        height: 200px;
+        background-size: contain;
+        opacity: 0.5;
+    }
+    
+    .picture-02 {
+        width: 155px;
+        height: 200px;
+        background-size: contain;
+        opacity: 1;
+        position: absolute;
+        z-index: 1;
+        left: -35px;
+        top: 0;
+    }
+    
+    .spray-03 {
+        width: 290px;
+        height: 200px;
+        background-size: contain;
+        opacity: 0.5;
+    }
+    
+    .picture-03 {
+        width: 155px;
+        height: 200px;
+        background-size: contain;
+        opacity: 1;
+        position: absolute;
+        z-index: 1;
+        left: -35px;
+        top: 0;
+    }
+    
+    .spray-04 {
+        width: 290px;
+        height: 200px;
+        background-size: contain;
+        opacity: 0.5;
+    }
+    
+    .picture-04 {
+        width: 155px;
+        height: 200px;
+        background-size: contain;
+        opacity: 1;
+        position: absolute;
+        z-index: 1;
+        left: -35px;
+        top: 0;
+    }
+    
+    .spray-05 {
+        width: 290px;
+        height: 200px;
+        background-size: contain;
+        opacity: 0.5;
+    }
+    
+    .picture-05 {
+        width: 155px;
+        height: 200px;
+        background-size: contain;
+        opacity: 1;
+        position: absolute;
+        z-index: 1;
+        left: -35px;
+        top: 0;
+    }
+    
+    .player-name{
+        text-align: left;
+        margin-left: 25px;
+        color: white;
+        font-size: 24px;
+        text-shadow: 2px 2px 5px black;
+        font-family: 'Teko', sans-serif;
+    }
+
+
 }
 
-/* Medium devices (tablets, 768px and up)*/
+/* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
     h1 {
         font-size: 82px;
@@ -265,7 +370,7 @@ footer {
         position: absolute;
         z-index: 1;
         top: 300px;
-        left: 350px;
+        left: 300px;
         width: 400px;
         height: 350px;
     }
@@ -274,7 +379,7 @@ footer {
         position: absolute;
         z-index: 2;
         top: 300px;
-        left: 300px;
+        left: 250px;
     }
 
     #player-02 {
@@ -324,7 +429,7 @@ footer {
     #player-04 {
         position: absolute;
         top: 500px;
-        left: 440px;
+        left: 395px;
         z-index: 3;
     }
     
@@ -354,7 +459,6 @@ footer {
     
 }
 
-/* Full HD */
 @media (min-width: 1800px) {
  
     
@@ -376,95 +480,198 @@ footer {
     .spray-01 {
         position: absolute;
         top: 300px;
-        left: 20px;
+        left: 120px;
     }
 
     .picture-01 {
         position: absolute;
         top: 300px;
-        left: 20px;
+        left: 120px;
     }
 
     #player-01 {
         position: absolute;
         top: 510px;
-        left: 160px;
+        left: 260px;
     }
     
     .spray-02 {
         top: 370px;
-        left: 385px;
+        left: 485px;
         position: absolute;
     }
 
     .picture-02 {
         position: absolute;
         top: 300px;
-        left: 370px;
+        left: 470px;
     }
 
     #player-02 {
         position: absolute;
         top: 230px;
-        left: 148px;
+        left: 248px;
     }
     
     .spray-03 {
         position: absolute;
         top: 25px;
-        left: 370px;
+        left: 470px;
     }
 
     .picture-03 {
         position: absolute;
         top: 25px;
-        left: 360px;
+        left: 460px;
     }
 
     #player-03 {
         position: absolute;
-        left: 510px;
+        left: 610px;
         top: 230px;
     }
     
     .spray-04 {
         position: absolute;
         top: 25px;
-        left: 10px;
+        left: 110px;
     }
 
     .picture-04 {
         position: absolute;
-        left: 0px;
+        left: 100px;
         top: 25px;
     }
 
     #player-04 {
         position: absolute;
         top: 505px;
-        left: 510px;
+        left: 610px;
     }
     
     .spray-05 {
         position: absolute;
         top: 540px;
-        left: 630px;
+        left: 730px;
     }
 
     .picture-05 {
         position: absolute;
-        left: 640px;
+        left: 740px;
         top: 510px;
     }
 
     #player-05 {
         position: absolute;
-        left: 790px;
+        left: 890px;
         top: 720px;
     }
- 
+}
+
+@media (min-width: 2200px) {
 
 
+    h1 {
+        left: -260px;
+        top: 1060px;
+        position: absolute;
+    }
+
+    .logo {
+        left: 550px;
+        width: 1200px;
+        height: 1200px;
+    }
+
+    .spray-01 {
+        position: absolute;
+        top: 400px;
+        left: 220px;
+    }
+
+    .picture-01 {
+        position: absolute;
+        top: 400px;
+        left: 220px;
+    }
+
+    #player-01 {
+        position: absolute;
+        top: 610px;
+        left: 360px;
+    }
+
+    .spray-02 {
+        top: 470px;
+        left: 585px;
+        position: absolute;
+    }
+
+    .picture-02 {
+        position: absolute;
+        top: 400px;
+        left: 570px;
+    }
+
+    #player-02 {
+        position: absolute;
+        top: 330px;
+        left: 348px;
+    }
+
+    .spray-03 {
+        position: absolute;
+        top: 125px;
+        left: 570px;
+    }
+
+    .picture-03 {
+        position: absolute;
+        top: 125px;
+        left: 560px;
+    }
+
+    #player-03 {
+        position: absolute;
+        left: 810px;
+        top: 230px;
+    }
+
+    .spray-04 {
+        position: absolute;
+        top: 125px;
+        left: 210px;
+    }
+
+    .picture-04 {
+        position: absolute;
+        left: 200px;
+        top: 125px;
+    }
+
+    #player-04 {
+        position: absolute;
+        top: 605px;
+        left: 710px;
+    }
+
+    .spray-05 {
+        position: absolute;
+        top: 640px;
+        left: 1030px;
+    }
+
+    .picture-05 {
+        position: absolute;
+        left: 1000px;
+        top: 610px;
+    }
+
+    #player-05 {
+        position: absolute;
+        left: 1155px;
+        top: 820px;
+    }
 
 
 }
