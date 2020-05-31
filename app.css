@@ -33,6 +33,12 @@ html {
     background: black, url(/images/mesh.png);
 }
 
+.container {
+    width: auto;
+    max-width: 680px;
+    padding: 0 15px;
+}
+
 h1 {
     font-family: 'Teko', sans-serif;
     color: white;
@@ -42,7 +48,7 @@ h1 {
     margin-bottom: 25px;
 }
 
-footer {
+.footer {
     background-color: black;
     color: white;
     text-align: center;
@@ -306,6 +312,65 @@ footer {
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+    
+    .player-name {
+        margin-left: 75px;
+    }
+
+    .spray-01 {
+        width: 350px;
+        height: 350px;
+    }
+
+
+    .picture-01 {
+        width: 255px;
+        height: 300px;
+    }
+
+
+    .picture-02 {
+        width: 255px;
+        height: 300px;
+    }
+
+    .spray-02 {
+        width: 350px;
+        height: 350px;
+    }
+
+
+    .picture-03 {
+        width: 255px;
+        height: 300px;
+    }
+    
+    .spray-03 {
+        width: 350px;
+        height: 350px;
+    }
+    
+    .spray-04 {
+        width: 350px;
+        height: 350px;
+    }
+
+
+    .picture-04 {
+        width: 255px;
+        height: 300px;
+    }
+    
+    .spray-05 {
+        width: 350px;
+        height: 350px;
+    }
+
+
+    .picture-05 {
+        width: 255px;
+        height: 300px;
+    }
 
 }
 
@@ -324,14 +389,10 @@ footer {
         margin: 0;
     }
 
-    footer {
-        position: absolute;
-        bottom: 0px;
-        left: 0px;
-        width: 100%;
-        z-index: 5;
-        height: 30px;
+    .player-name {
+        margin-left: 25px;
     }
+
 
     .logo {
         z-index: 0;
@@ -362,7 +423,7 @@ footer {
     #player-01 {
         position: absolute;
         top: 510px;
-        left: 160px;
+        left: 130px;
         z-index: 3;
     }
     
@@ -385,7 +446,7 @@ footer {
     #player-02 {
         position: absolute;
         top: 230px;
-        left: 148px;
+        left: 118px;
         z-index: 3;
     }
     
@@ -406,7 +467,7 @@ footer {
 
     #player-03 {
         position: absolute;
-        left: 375px;
+        left: 345px;
         top: 230px;
         z-index: 3;
     }
@@ -429,7 +490,7 @@ footer {
     #player-04 {
         position: absolute;
         top: 500px;
-        left: 395px;
+        left: 365px;
         z-index: 3;
     }
     
@@ -443,14 +504,14 @@ footer {
     }
 
     .picture-05 {
-        left: 480px;
+        left: 470px;
         top: 270px;
         z-index: 2;
     }
 
     #player-05 {
         position: absolute;
-        left: 640px;
+        left: 610px;
         top: 478px;
         z-index: 3;
         width: 110px;
