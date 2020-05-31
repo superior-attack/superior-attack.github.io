@@ -587,23 +587,29 @@ footer {
         position: absolute;
         top: 400px;
         left: 220px;
+        width: 255px;
+        height: 300px;
     }
 
     .picture-01 {
         position: absolute;
         top: 400px;
         left: 220px;
+        width: 255px;
+        height: 300px;
     }
 
     #player-01 {
         position: absolute;
         top: 610px;
-        left: 360px;
+        left: 340px;
     }
 
     .spray-02 {
         top: 470px;
         left: 585px;
+        width: 255px;
+        height: 300px;
         position: absolute;
     }
 
@@ -611,65 +617,79 @@ footer {
         position: absolute;
         top: 400px;
         left: 570px;
+        width: 255px;
+        height: 300px;
     }
 
     #player-02 {
         position: absolute;
         top: 330px;
-        left: 348px;
+        left: 328px;
     }
 
     .spray-03 {
         position: absolute;
         top: 125px;
         left: 570px;
+        width: 255px;
+        height: 300px;
     }
 
     .picture-03 {
         position: absolute;
         top: 125px;
         left: 560px;
+        width: 255px;
+        height: 300px;
     }
 
     #player-03 {
         position: absolute;
-        left: 810px;
-        top: 230px;
+        left: 690px;
+        top: 330px;
     }
 
     .spray-04 {
         position: absolute;
         top: 125px;
         left: 210px;
+        width: 255px;
+        height: 300px;
     }
 
     .picture-04 {
         position: absolute;
         left: 200px;
         top: 125px;
+        width: 255px;
+        height: 300px;
     }
 
     #player-04 {
         position: absolute;
         top: 605px;
-        left: 710px;
+        left: 690px;
     }
 
     .spray-05 {
         position: absolute;
         top: 640px;
         left: 1030px;
+        width: 255px;
+        height: 300px;
     }
 
     .picture-05 {
         position: absolute;
         left: 1000px;
         top: 610px;
+        width: 255px;
+        height: 300px;
     }
 
     #player-05 {
         position: absolute;
-        left: 1155px;
+        left: 1125px;
         top: 820px;
     }
 
