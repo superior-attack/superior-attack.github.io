@@ -16,6 +16,10 @@ html {
 
 }
 
+body {
+    height: 100%;
+}
+
 .container-fluit {
 
     min-height: 100%;
