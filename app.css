@@ -52,30 +52,35 @@ a:active {
     background-image: url(images/spray_01.svg);
     background-size: 300px 250px;
     text-align: center;
+    background-repeat: no-repeat;
 }
 
 .spray-2 {
     background-image: url(images/spray_02.svg);
     background-size: 300px 250px;
     text-align: center;
+    background-repeat: no-repeat;
 }
 
 .spray-3 {
     background-image: url(images/spray_03.svg);
     background-size: 300px 250px;
     text-align: center;
+    background-repeat: no-repeat;
 }
 
 .spray-4 {
     background-image: url(images/spray_04.svg);
     background-size: 300px 250px;
     text-align: center;
+    background-repeat: no-repeat;
 }
 
 .spray-5 {
     background-image: url(images/spray_05.svg);
     background-size: 300px 250px;
     text-align: center;
+    background-repeat: no-repeat;
 }
 
 .player-name {
