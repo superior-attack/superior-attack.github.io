@@ -1,763 +1,85 @@
-html {
-
-    min-height: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    background: url(/images/mesh.png), -webkit-linear-gradient( to top, black, yellow 30%, black 60%) fixed;
-    background: url(/images/mesh.png), -moz-linear-gradient( to top, black, yellow 30%, black 60%) fixed;
-    background: url(/images/mesh.png), -ms-linear-gradient( to top, black, yellow 30%, black 60%) fixed;
-    background: url(/images/mesh.png), -o-linear-gradient( to top, black, yellow 30%, black 60%) fixed;
-    background: url(/images/mesh.png), linear-gradient(to top, black, yellow 30%, black 60%) fixed;
-
-    background: black, url(/images/mesh.png);
-
-}
-
 body {
-    height: 100%;
-}
-
-.container-fluit {
-
-    min-height: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    background: url(/images/mesh.png), -webkit-linear-gradient( to top, black, yellow 30%, black 60%) fixed;
-    background: url(/images/mesh.png), -moz-linear-gradient( to top, black, yellow 30%, black 60%) fixed;
-    background: url(/images/mesh.png), -ms-linear-gradient( to top, black, yellow 30%, black 60%) fixed;
-    background: url(/images/mesh.png), -o-linear-gradient( to top, black, yellow 30%, black 60%) fixed;
-    background: url(/images/mesh.png), linear-gradient(to top, black, yellow 30%, black 60%) fixed;
-
-    background: black, url(/images/mesh.png);
-}
-
-.container {
-    width: auto;
-    max-width: 680px;
-    padding: 0 15px;
-}
-
-h1 {
-    font-family: 'Teko', sans-serif;
-    color: white;
-    font-size: 55px;
-    text-shadow: 2px 2px 5px black;
-    text-align: center;
-    margin-bottom: 25px;
-}
-
-.footer {
     background-color: black;
-    color: white;
-    text-align: center;
-    height: 60px;
 }
+
+header {
+    background-color: black;
+}
+
+footer {
+    background-color: rgb(178, 168, 19);
+    color: black;
+    text-align: center;
+}
+
+a {
+    text-decoration: underline;
+    color: black;
+}
+
+a:visited {
+    text-decoration: underline;
+    color: black;
+}
+
+a:hover {
+    text-decoration: bold;
+    color: white;
+}
+
+a:active {
+    text-decoration: bold;
+    color: white;
+}
+
 
 .logo {
-    width: 255px;
-    height: 255px;
-    margin: 50px 0 50px 30px;
+    padding-top: 30px;
+}
+
+#headline {
+    font-size: 32px;
+    padding: 15px 0;
+    color: rgb(178, 168, 19);
+    text-align: center;
 }
 
 .bi-person-circle {
-    width: 240px;
-    height: 200px;
-    margin-left: 85px;
-    opacity: 1;
-    z-index: 2;
-}
-
-.spray-01 {
-    width: 390px;
-    height: 300px;
-    background-size: contain;
-    opacity: 0.5;
-}
-
-.picture-01 {
-    width: 255px;
-    height: 300px;
-    background-size: contain;
-    opacity: 1;
-    position: absolute;
-    z-index: 1;
-    left: -35px;
-    top: 0px;
-}
-
-.spray-02 {
-    width: 390px;
-    height: 300px;
-    background-size: contain;
-    opacity: 0.5;
-}
-
-.picture-02 {
-    width: 255px;
-    height: 300px;
-    background-size: contain;
-    opacity: 1;
-    position: absolute;
-    z-index: 1;
-    left: -35px;
-    top: 0;
-}
-
-.spray-03 {
-    width: 390px;
-    height: 300px;
-    background-size: contain;
-    opacity: 0.5;
-}
-
-.picture-03 {
-    width: 255px;
-    height: 300px;
-    background-size: contain;
-    opacity: 1;
-    position: absolute;
-    z-index: 1;
-    left: -35px;
-    top: 0;
-}
-
-.spray-04 {
-    width: 390px;
-    height: 300px;
-    background-size: contain;
-    opacity: 0.5;
-}
-
-.picture-04 {
-    width: 255px;
-    height: 300px;
-    background-size: contain;
-    opacity: 1;
-    position: absolute;
-    z-index: 1;
-    left: -35px;
-    top: 0;
-}
-
-.spray-05 {
-    width: 390px;
-    height: 300px;
-    background-size: contain;
-    opacity: 0.5;
-}
-
-.picture-05 {
-    width: 255px;
-    height: 300px;
-    background-size: contain;
-    opacity: 1;
-    position: absolute;
-    z-index: 1;
-    left: -35px;
-    top: 0;
-}
-
-.player-name{
-    text-align: center;
     color: white;
-    font-size: 24px;
-    text-shadow: 2px 2px 5px black;
-    font-family: 'Teko', sans-serif;
 }
 
-
-/* Extra small devices (portrait phones, less than 576px)
-   No media query for `xs` since this is the default in Bootstrap
-
-   Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) {
-
-    h1 {
-        margin-top: 55px;
-        text-align: left;
-        font-size: 100px;
-    }
-
-    .picture-01 {
-        top: -15px;
-    }
-
-    .picture-02 {
-        top: -15px;
-    }
-
-    .picture-03 {
-        top: -15px;
-    }
-    
-    .picture-04 {
-        top: -15px;
-    }
-    
-    .picture-05 {
-        top: -15px;
-    }
-
-
-    .spray-01 {
-        width: 290px;
-        height: 200px;
-        background-size: contain;
-        opacity: 0.5;
-    }
-    
-    .picture-01 {
-        width: 155px;
-        height: 200px;
-        background-size: contain;
-        opacity: 1;
-        position: absolute;
-        z-index: 1;
-        left: -35px;
-        top: 0px;
-    }
-    
-    .spray-02 {
-        width: 290px;
-        height: 200px;
-        background-size: contain;
-        opacity: 0.5;
-    }
-    
-    .picture-02 {
-        width: 155px;
-        height: 200px;
-        background-size: contain;
-        opacity: 1;
-        position: absolute;
-        z-index: 1;
-        left: -35px;
-        top: 0;
-    }
-    
-    .spray-03 {
-        width: 290px;
-        height: 200px;
-        background-size: contain;
-        opacity: 0.5;
-    }
-    
-    .picture-03 {
-        width: 155px;
-        height: 200px;
-        background-size: contain;
-        opacity: 1;
-        position: absolute;
-        z-index: 1;
-        left: -35px;
-        top: 0;
-    }
-    
-    .spray-04 {
-        width: 290px;
-        height: 200px;
-        background-size: contain;
-        opacity: 0.5;
-    }
-    
-    .picture-04 {
-        width: 155px;
-        height: 200px;
-        background-size: contain;
-        opacity: 1;
-        position: absolute;
-        z-index: 1;
-        left: -35px;
-        top: 0;
-    }
-    
-    .spray-05 {
-        width: 290px;
-        height: 200px;
-        background-size: contain;
-        opacity: 0.5;
-    }
-    
-    .picture-05 {
-        width: 155px;
-        height: 200px;
-        background-size: contain;
-        opacity: 1;
-        position: absolute;
-        z-index: 1;
-        left: -35px;
-        top: 0;
-    }
-    
-    .player-name{
-        text-align: left;
-        margin-left: 25px;
-        color: white;
-        font-size: 24px;
-        text-shadow: 2px 2px 5px black;
-        font-family: 'Teko', sans-serif;
-    }
-
-
+.spray-1 {
+    background-image: url(images/spray_01.svg);
+    background-size: 300px 250px;
+    text-align: center;
 }
 
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-    h1 {
-        font-size: 82px;
-        margin-top: 100px;
-    }
+.spray-2 {
+    background-image: url(images/spray_02.svg);
+    background-size: 300px 250px;
+    text-align: center;
 }
 
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-    
-    .player-name {
-        margin-left: 75px;
-    }
-
-    .spray-01 {
-        width: 350px;
-        height: 350px;
-    }
-
-
-    .picture-01 {
-        width: 255px;
-        height: 300px;
-    }
-
-
-    .picture-02 {
-        width: 255px;
-        height: 300px;
-    }
-
-    .spray-02 {
-        width: 350px;
-        height: 350px;
-    }
-
-
-    .picture-03 {
-        width: 255px;
-        height: 300px;
-    }
-    
-    .spray-03 {
-        width: 350px;
-        height: 350px;
-    }
-    
-    .spray-04 {
-        width: 350px;
-        height: 350px;
-    }
-
-
-    .picture-04 {
-        width: 255px;
-        height: 300px;
-    }
-    
-    .spray-05 {
-        width: 350px;
-        height: 350px;
-    }
-
-
-    .picture-05 {
-        width: 255px;
-        height: 300px;
-    }
-
+.spray-3 {
+    background-image: url(images/spray_03.svg);
+    background-size: 300px 250px;
+    text-align: center;
 }
 
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-    
-    h1 {
-        font-family: 'Teko', sans-serif;
-        z-index: 3;
-        color: white;
-        font-size: 82px;
-        text-shadow: 2px 2px 5px black;
-        position: absolute;
-        top: 550px;
-        left: -210px;
-        margin: 0;
-    }
-
-    .player-name {
-        margin-left: 25px;
-    }
-
-
-    .logo {
-        z-index: 0;
-        position: absolute;
-        top: 0px;
-        left: 275px;
-        width: 750px;
-        height: 750px;
-        margin: 0 50px 50px;
-    }
-    
-    .spray-01 {
-        position: absolute;
-        z-index: 1;
-        top: 300px;
-        left: 20px;
-        width: 350px;
-        height: 350px;
-    }
-
-    .picture-01 {
-        position: absolute;
-        z-index: 2;
-        top: 300px;
-        left: 20px;
-    }
-
-    #player-01 {
-        position: absolute;
-        top: 510px;
-        left: 130px;
-        z-index: 3;
-    }
-    
-    .spray-02 {
-        position: absolute;
-        z-index: 1;
-        top: 300px;
-        left: 300px;
-        width: 400px;
-        height: 350px;
-    }
-
-    .picture-02 {
-        position: absolute;
-        z-index: 2;
-        top: 300px;
-        left: 250px;
-    }
-
-    #player-02 {
-        position: absolute;
-        top: 230px;
-        left: 118px;
-        z-index: 3;
-    }
-    
-    .spray-03 {
-        position: absolute;
-        z-index: 1;
-        top: 25px;
-        left: 225px;
-        width: 400px;
-        height: 350px;
-    }
-
-    .picture-03 {
-        top: 25px;
-        left: 225px;
-        z-index: 2;
-    }
-
-    #player-03 {
-        position: absolute;
-        left: 345px;
-        top: 230px;
-        z-index: 3;
-    }
-    
-    .spray-04 {
-        position: absolute;
-        z-index: 1;
-        top: 25px;
-        left: 10px;
-        width: 350px;
-        height: 400px;
-    }
-
-    .picture-04 {
-        left: 0px;
-        top: 25px;
-        z-index: 2;
-    }
-
-    #player-04 {
-        position: absolute;
-        top: 500px;
-        left: 365px;
-        z-index: 3;
-    }
-    
-    .spray-05 {
-        position: absolute;
-        z-index: 1;
-        top: 350px;
-        left: 500px;
-        width: 400px;
-        height: 350px;
-    }
-
-    .picture-05 {
-        left: 470px;
-        top: 270px;
-        z-index: 2;
-    }
-
-    #player-05 {
-        position: absolute;
-        left: 610px;
-        top: 478px;
-        z-index: 3;
-        width: 110px;
-    }
- 
-    
+.spray-4 {
+    background-image: url(images/spray_04.svg);
+    background-size: 300px 250px;
+    text-align: center;
 }
 
-@media (min-width: 1800px) {
- 
-    
-    h1 {
-        left: -210px;
-        top: 885px;
-        position: absolute;
-    }
-
-    .logo {
-        position: absolute;
-        top: 0px;
-        left: 375px;
-        width: 1000px;
-        height: 1000px;
-        margin: 0 50px 50px;
-    }
-    
-    .spray-01 {
-        position: absolute;
-        top: 300px;
-        left: 120px;
-    }
-
-    .picture-01 {
-        position: absolute;
-        top: 300px;
-        left: 120px;
-    }
-
-    #player-01 {
-        position: absolute;
-        top: 510px;
-        left: 260px;
-    }
-    
-    .spray-02 {
-        top: 370px;
-        left: 485px;
-        position: absolute;
-    }
-
-    .picture-02 {
-        position: absolute;
-        top: 300px;
-        left: 470px;
-    }
-
-    #player-02 {
-        position: absolute;
-        top: 230px;
-        left: 248px;
-    }
-    
-    .spray-03 {
-        position: absolute;
-        top: 25px;
-        left: 470px;
-    }
-
-    .picture-03 {
-        position: absolute;
-        top: 25px;
-        left: 460px;
-    }
-
-    #player-03 {
-        position: absolute;
-        left: 610px;
-        top: 230px;
-    }
-    
-    .spray-04 {
-        position: absolute;
-        top: 25px;
-        left: 110px;
-    }
-
-    .picture-04 {
-        position: absolute;
-        left: 100px;
-        top: 25px;
-    }
-
-    #player-04 {
-        position: absolute;
-        top: 505px;
-        left: 610px;
-    }
-    
-    .spray-05 {
-        position: absolute;
-        top: 540px;
-        left: 730px;
-    }
-
-    .picture-05 {
-        position: absolute;
-        left: 740px;
-        top: 510px;
-    }
-
-    #player-05 {
-        position: absolute;
-        left: 890px;
-        top: 720px;
-    }
+.spray-5 {
+    background-image: url(images/spray_05.svg);
+    background-size: 300px 250px;
+    text-align: center;
 }
 
-@media (min-width: 2200px) {
-
-
-    h1 {
-        left: -260px;
-        top: 1060px;
-        position: absolute;
-    }
-
-    .logo {
-        left: 550px;
-        width: 1200px;
-        height: 1200px;
-    }
-
-    .spray-01 {
-        position: absolute;
-        top: 400px;
-        left: 220px;
-        width: 255px;
-        height: 300px;
-    }
-
-    .picture-01 {
-        position: absolute;
-        top: 400px;
-        left: 220px;
-        width: 255px;
-        height: 300px;
-    }
-
-    #player-01 {
-        position: absolute;
-        top: 610px;
-        left: 340px;
-    }
-
-    .spray-02 {
-        top: 470px;
-        left: 585px;
-        width: 255px;
-        height: 300px;
-        position: absolute;
-    }
-
-    .picture-02 {
-        position: absolute;
-        top: 400px;
-        left: 570px;
-        width: 255px;
-        height: 300px;
-    }
-
-    #player-02 {
-        position: absolute;
-        top: 330px;
-        left: 328px;
-    }
-
-    .spray-03 {
-        position: absolute;
-        top: 125px;
-        left: 570px;
-        width: 255px;
-        height: 300px;
-    }
-
-    .picture-03 {
-        position: absolute;
-        top: 125px;
-        left: 560px;
-        width: 255px;
-        height: 300px;
-    }
-
-    #player-03 {
-        position: absolute;
-        left: 690px;
-        top: 330px;
-    }
-
-    .spray-04 {
-        position: absolute;
-        top: 125px;
-        left: 210px;
-        width: 255px;
-        height: 300px;
-    }
-
-    .picture-04 {
-        position: absolute;
-        left: 200px;
-        top: 125px;
-        width: 255px;
-        height: 300px;
-    }
-
-    #player-04 {
-        position: absolute;
-        top: 605px;
-        left: 690px;
-    }
-
-    .spray-05 {
-        position: absolute;
-        top: 640px;
-        left: 1030px;
-        width: 255px;
-        height: 300px;
-    }
-
-    .picture-05 {
-        position: absolute;
-        left: 1000px;
-        top: 610px;
-        width: 255px;
-        height: 300px;
-    }
-
-    #player-05 {
-        position: absolute;
-        left: 1125px;
-        top: 820px;
-    }
-
-
+.player-name {
+    text-align: center;
+    color: rgb(178, 168, 19);
+    font-style: italic;
 }
